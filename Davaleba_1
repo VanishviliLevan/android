@@ -1,12 +1,6 @@
-fun main() {
-    fun arrayCalculator(arr:IntArray):Int{
-        if (arr.size <2){
-            return 0
-        }
-        else{
-        var sum:Int = 0
-        var i = 2
-        whilfun main() {
+     
+        
+  fun main() {
     fun arrayCalculator(arr:IntArray):Int{
         if (arr.size <2){
             return 0
@@ -22,16 +16,19 @@ fun main() {
             }
    
     }
+  
     var arr = intArrayOf(1, 5,4,12,11,23,26)
     println(arrayCalculator(arr))
-    }e(i<arr.size){
-            sum += arr[i]
-            i += 2
-        }
-        return sum
-            }
-   
-    }
-    var arr = intArrayOf(1, 5,4,12,11,23,26)
-    println(arrayCalculator(arr))
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     }
