@@ -1,7 +1,10 @@
      
         
   fun main() {
-    fun arrayCalculator(arr:IntArray):Int{
+   
+   //1
+   
+   fun arrayCalculator(arr:IntArray):Int{
         if (arr.size <2){
             return 0
         }
@@ -23,9 +26,33 @@
     
     
     
+  //2  
     
+        fun palin(txt:String):Boolean{
+
+        
+
+        if(txt == txt.reversed()){
+
+            return true
+
+        }
+
+        
+
+        return false
+
+        
+
+    }
+
     
-    
+
+   println( palin("hey"))
+
+   
+
+   println(palin("asa"))
     
     
     
